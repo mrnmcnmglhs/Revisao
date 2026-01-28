@@ -1,0 +1,55 @@
+.card{
+    background-color: blueviolet;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figure{
+    width: 350px;
+    height: 320px;
+}
+
+.tituloCard{
+    font-family: "Megina";
+    font-weight: 500;
+    font-size: 30px;
+
+    margin-top: 20px;
+}
+
+.descricao{
+    width: 330px;
+
+    font-family: 'Prime Form - Regular';
+    text-align: justify;
+    word-wrap: break-word;
+
+    margin-left: 10px;
+}
+
+.alinharBtns{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnFav,
+.btnDesfav{
+    width: 150px;
+    height: 40px;
+    
+    border-radius: 50px;
+    border: none;
+
+    font-family: 'Prime Form - Regular';
+    font-size: 20px;
+}
