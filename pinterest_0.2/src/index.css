@@ -14,6 +14,12 @@
     src: url(./assets/font/PrimeformProDemo-Bold.otf) format(truetype);
 }
 
+/*  CORES */
+:root{
+    --off-white: #f1faee;
+    --white: #fff;
+}
+
 /* ESTILIZAÇÃO DA PAGINA */
 *{
     margin: 0px;
@@ -26,11 +32,16 @@ img{
     border-radius: 20px;
 }
 
-/* ESILIZAÇÃO O COMPONENTE PRINCIPAL */
+body{
+    background-image: url(./assets/imgs/fundo.png);
+    background-position: center;
+}
+
+/* ESILIZAÇÃO DO APP */
 .container{
     width: 80%;
     min-height: 90vh;
-    background-color: aqua;
+    background-color: var(--off-white);
     
     display: flex;
     flex-direction: column;
@@ -42,4 +53,21 @@ img{
     font-family: "Megina";
     font-weight: 500;
     font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boxCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    padding-bottom: 50px;
+}
+
+h2{
+    font-family: 'Prime Form - Regular';
+    text-align: center;
 }

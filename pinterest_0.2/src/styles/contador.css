@@ -1,0 +1,37 @@
+.containerContador{
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.tituloComponente{
+    font-family: 'Prime Form - Regular';
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.resultado{
+    width: 63px;
+    height: 63px;
+
+    background-image: url(../assets/imgs/box-container.png);
+    background-size: cover;
+    background-position: center;
+
+    font-size: 40px;
+    font-family: 'Prime Form - Regular';
+
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}

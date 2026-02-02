@@ -1,6 +1,9 @@
 import '../styles/card.css'
 
-export default function Card({img, alt, titulo, descricao}){
+export default function Card({img, alt, titulo, descricao, item, favoritado, onToggleFavs}){
+    /* No componente Card, temos apenas um botão, que é para sinalizar
+       a mudança de estado, favorito e desfavorito.
+     */
     return(
         <article className='card'>
             <figure>
@@ -10,11 +13,11 @@ export default function Card({img, alt, titulo, descricao}){
             <h1 className='tituloCard'>{titulo}</h1>
             <p className='descricao'>{descricao}</p>
 
-            <div className='alinharBtns'>
-                <button className='btnFav'>Favoritar</button>
-                <button className='btnDesfav'>Desfavoritar</button>
+            <div onClick={() => onToggleFavs(item.id)} className='alinharBtns'>
+                <button className='btnFav'>
+                    {favoritado ? "Desfavoritar" : "Favoritar"}
+                </button>
             </div>
-
         </article>
     )
 }
