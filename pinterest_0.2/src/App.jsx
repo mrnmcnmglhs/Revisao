@@ -103,7 +103,7 @@ function App() {
       img: Animer,
       alt: "As Meninas Superpoderosas geração Z",
       titulo: "Animerrr",
-      descricao:"A melhor versão delas, muito SUPERIOR! Uma cois bem juvenil tbm."
+      descricao:"A melhor versão delas, muito SUPERIOR! Uma coisa bem juvenil tbm."
     },
     { 
       id: 10, 
@@ -135,15 +135,15 @@ function App() {
       img: Family,
       alt: "A Familia das Meninas reunida em um jardim",
       titulo: "Familyy",
-      descricao: "Esta família é muito unida, E também muito ouriçada, Brigam por qualquer razão, Mas acabam pedindo perdão"
+      descricao: "Esta família é muito unida, E também muito ouriçada, Brigam por qualquer razão, Mas acabam pedindo perdão."
     },
     { 
       id: 14, 
       nome: "item 15",
       img: Ele,
       alt: "O vilãe, Ele",
-      titulo: "Ele",
-      descricao:"No matter gay, straight or bi, Lesbian, transgendered life, I'm on the right track, baby, I was born to survive, No matter black, white or beige, Chola or orient made, I'm on the right track, baby, I was born to be brave"
+      titulo: "Who is this DIVA?",
+      descricao:"No matter gay, straight or bi, Lesbian, transgendered life, I'm on the right track, baby, I was born to survive, No matter black, white or beige, Chola or orient made, I'm on the right track, baby, I was born to be brave."
     },
     { 
       id: 16, 
@@ -167,7 +167,7 @@ function App() {
       img: GizLindinha,
       alt: "FanArt da Lindinha feita com giz de cera.",
       titulo: "Muito FOFAA",
-      descricao:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. - muita fofura"
+      descricao:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. - muita fofura."
     },
     { 
       id: 19, 
