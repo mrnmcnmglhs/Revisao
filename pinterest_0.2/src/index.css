@@ -20,6 +20,12 @@
     --white: #fff;
 }
 
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ESTILIZAÇÃO DA PAGINA */
 *{
     margin: 0px;
@@ -35,6 +41,7 @@ img{
 body{
     background-image: url(./assets/imgs/fundo.png);
     background-position: center;
+    background-size: cover;
 }
 
 /* ESILIZAÇÃO DO APP */
@@ -45,6 +52,7 @@ body{
     
     display: flex;
     flex-direction: column;
+
     align-self: center;
     justify-self: center;
 }
