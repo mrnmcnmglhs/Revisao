@@ -141,7 +141,7 @@ function App() {
       id: 14, 
       nome: "item 15",
       img: Ele,
-      alt: "O vilãe Ele",
+      alt: "O vilãe, Ele",
       titulo: "Ele",
       descricao:"No matter gay, straight or bi, Lesbian, transgendered life, I'm on the right track, baby, I was born to survive, No matter black, white or beige, Chola or orient made, I'm on the right track, baby, I was born to be brave"
     },
@@ -149,33 +149,33 @@ function App() {
       id: 16, 
       nome: "item 16",
       img: Jacks,
-      alt: "",
-      titulo: "",
-      descricao:""
+      alt: "Os ladrões vestidos de Meninas Superpoderosas",
+      titulo: "PEGA O JACK PEGA JACK",
+      descricao:"Simplesmente os caras se fantasiaram da Meninas Superpoderosas, e, cometeram varios assaltos, e TODO MUNDO acreditou que era eles, mas ninguem achou estranho as meninas estarem com a voz grossa?"
     },
     { 
       id: 17, 
       nome: "item 17",
       img: GizFlorzinha,
-      alt: "",
-      titulo: "",
-      descricao:""
+      alt: "FanArt da Florzinha feita com giz de cera.",
+      titulo: "Fofura",
+      descricao:"A mais organizada, a mais estudiosa, a mais mais e a mais controladora."
     },
     { 
       id: 18, 
       nome: "item 18",
       img: GizLindinha,
-      alt: "",
-      titulo: "",
-      descricao:""
+      alt: "FanArt da Lindinha feita com giz de cera.",
+      titulo: "Muito FOFAA",
+      descricao:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. - muita fofura"
     },
     { 
       id: 19, 
       nome: "item 19",
       img: GizDocinho,
-      alt: "",
-      titulo: "",
-      descricao:""
+      alt: "FanArt da Docinho feita com giz de cera.",
+      titulo: "Sad",
+      descricao:"O porque da Docinho estar triste, tbm não sei, talvez ela estaja pensando no seu ex? o Ace, da Gangue Gangrena."
     }
   ]
 
