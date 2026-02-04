@@ -211,7 +211,12 @@ function App() {
         ))}
       </section>
 
-      <footer></footer>
+      <footer>
+        <div className='f'></div>
+        <div className='l'></div>
+        <div className='d'></div>
+        <p className='txtFooter'>&copy; Mariana Macena</p>
+      </footer>
     </main>
   )
 }
